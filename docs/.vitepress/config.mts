@@ -10,7 +10,7 @@ const tkConfig = defineTeekConfig({
     // 博主信息，显示在首页侧边栏
     avatar: "https://testingcf.jsdelivr.net/gh/Kele-Bingtang/static/user/avatar1.png",
     avatarStyle: "full",
-    name: "天客",
+    name: "向画",
     slogan: "朝圣的使徒，正在走向编程的至高殿堂！",
   },
   docAnalysis: {
@@ -83,11 +83,11 @@ const tkConfig = defineTeekConfig({
     topMessage: ["下面的内容和图标都可以修改（本条内容也可以隐藏的）"],
     bottomMessage: ["上面的内容和图标都可以修改（本条内容也可以隐藏的）"],
     copyright: {
-      createYear: 2021,
-      suffix: "天客 Blog",
+      createYear: 2025,
+      suffix: "向画 Blog",
     },
     icpRecord: {
-      name: "桂ICP备2021009994号",
+      name: "鲁ICP备20250331号",
       link: "http://beian.miit.gov.cn/",
     },
     customHtml: `<p>小破站已运行了 <span id="footer-runtime"></span></p>`, // 搭配 ./theme/helper/useFooterRuntime.ts 使用才有效果
@@ -97,25 +97,25 @@ const tkConfig = defineTeekConfig({
       icon: "icon-github",
       iconType: "iconfont",
       name: "GitHub",
-      link: "https://github.com/kele-bingtang",
+      link: "https://github.com/",
     },
     {
       icon: "icon-gitee2",
       iconType: "iconfont",
       name: "Gitee",
-      link: "https://gitee.com/kele-bingtang",
+      link: "https://gitee.com/",
     },
     {
       icon: "icon-qq",
       iconType: "iconfont",
       name: "QQ",
-      link: "http://wpa.qq.com/msgrd?v=3&uin=28761025&site=qq&menu=yes",
+      link: "http://wpa.qq.com/msgrd?v=3&uin=1823781045&site=qq&menu=yes",
     },
     {
       icon: "icon-mobile",
       iconType: "iconfont",
       name: "联系我",
-      link: "https://www.youngkbt.cn/?contact=true",
+      link: "https://www.yanmingke.top/?contact=true",
     },
   ],
   comment: {
@@ -161,7 +161,7 @@ const tkConfig = defineTeekConfig({
 export default defineConfig({
   extends: tkConfig,
   base: "/",
-  title: "Hd Security",
+  title: "Yan tree🌱",
   description: description,
   cleanUrls: true,
   lastUpdated: true,
@@ -204,7 +204,7 @@ export default defineConfig({
   },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    logo: "https://testingcf.jsdelivr.net/gh/Kele-Bingtang/static/user/avatar1.png",
+    logo: "https://cdn.jsdelivr.net/gh/Misyan-03/ImageBed@master/user.jpg", //左上角logo
     darkModeSwitchLabel: "主题",
     sidebarMenuLabel: "菜单",
     returnToTopLabel: "返回顶部",
@@ -243,9 +243,9 @@ export default defineConfig({
   },
 
   // 运行后自动打开网页
-  // vite: {
-  //   server: {
-  //     open: true,
-  //   },
-  // },
+  vite: {
+    server: {
+      open: true,
+    },
+  },
 });

@@ -4,9 +4,10 @@ const namespace = "notice";
 
 <template>
   <div :class="namespace">
-    <p>微信 👇</p>
+    <p>微信公众号 👇</p>
     <img src="/img/qrCode.png" alt="QR Code" />
-    <p class="">欢迎大家私信交流</p>
+    <p class="">欢迎关注我的公众号！</p>
+    <p class="">My name is Yan！</p>
   </div>
 </template>
 
